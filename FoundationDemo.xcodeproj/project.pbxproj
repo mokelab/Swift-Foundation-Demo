@@ -15,6 +15,7 @@
 		74BBA0E41D8DCBEC00E0E819 /* Date.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BBA0E31D8DCBEC00E0E819 /* Date.storyboard */; };
 		74BBA0E61D8DCCA600E0E819 /* DateTodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BBA0E51D8DCCA600E0E819 /* DateTodayViewController.swift */; };
 		74BBA0E81D8DCE5100E0E819 /* DateFormatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BBA0E71D8DCE5100E0E819 /* DateFormatViewController.swift */; };
+		74BBA0EA1D8DD32A00E0E819 /* DateParseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BBA0E91D8DD32A00E0E819 /* DateParseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		74BBA0E31D8DCBEC00E0E819 /* Date.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Date.storyboard; sourceTree = "<group>"; };
 		74BBA0E51D8DCCA600E0E819 /* DateTodayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTodayViewController.swift; sourceTree = "<group>"; };
 		74BBA0E71D8DCE5100E0E819 /* DateFormatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatViewController.swift; sourceTree = "<group>"; };
+		74BBA0E91D8DD32A00E0E819 /* DateParseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateParseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				74BBA0E31D8DCBEC00E0E819 /* Date.storyboard */,
 				74BBA0E51D8DCCA600E0E819 /* DateTodayViewController.swift */,
 				74BBA0E71D8DCE5100E0E819 /* DateFormatViewController.swift */,
+				74BBA0E91D8DD32A00E0E819 /* DateParseViewController.swift */,
 			);
 			path = Date;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				74BBA0E61D8DCCA600E0E819 /* DateTodayViewController.swift in Sources */,
 				749230481D8DC0FF0015DAA9 /* UserDefaultsViewController.swift in Sources */,
 				749230461D8DC0FF0015DAA9 /* AppDelegate.swift in Sources */,
+				74BBA0EA1D8DD32A00E0E819 /* DateParseViewController.swift in Sources */,
 				74BBA0E81D8DCE5100E0E819 /* DateFormatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
