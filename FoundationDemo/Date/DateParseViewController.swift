@@ -19,7 +19,7 @@ class DateParseViewController : UIViewController {
         
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy/MM/dd HH:mm:ss"
-        // NSDateに変換。だめだったらnil
+        // Dateに変換。だめだったらnil
         let date = formatter.date(from: "2016/09/18 18:00:00")
         self.text.text = "\(date!)"
     }
