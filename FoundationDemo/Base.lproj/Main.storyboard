@@ -88,6 +88,14 @@
             </objects>
             <point key="canvasLocation" x="884" y="814"/>
         </scene>
+        <!--Date-->
+        <scene sceneID="TdR-Gi-ZeW">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Date" id="X9k-wx-isU" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SpT-A3-R9T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="737" y="1255"/>
+        </scene>
         <!--Root View Controller-->
         <scene sceneID="fv0-Bb-elT">
             <objects>
@@ -119,6 +127,28 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="BYZ-38-t0r" kind="show" id="1Xb-mF-frf"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="NaJ-sI-2NR">
+                                        <rect key="frame" x="0.0" y="108" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NaJ-sI-2NR" id="pBl-zM-WJv">
+                                            <frame key="frameInset" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFD-vJ-Qor">
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="fFD-vJ-Qor" firstAttribute="centerY" secondItem="pBl-zM-WJv" secondAttribute="centerY" id="6ol-HB-mzU"/>
+                                                <constraint firstItem="fFD-vJ-Qor" firstAttribute="leading" secondItem="pBl-zM-WJv" secondAttribute="leading" constant="16" id="L5K-x1-Olk"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="X9k-wx-isU" kind="show" id="0QO-Rb-xfF"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
